@@ -1,5 +1,5 @@
 # BLOCKCHAIN
-Learning Python By Creating A Blockchain
+Learning to build a Blockchain & Cryptocurrency using Python, JS & React.
 
 **Activate The Virtual Environment**
 ```

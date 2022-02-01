@@ -1,1 +1,7 @@
-[]
+[
+  "backend/tests/blockchain/test_block.py::test_genesis",
+  "backend/tests/blockchain/test_block.py::test_mine_block",
+  "backend/tests/blockchain/test_blockchain.py::test_add_block",
+  "backend/tests/blockchain/test_blockchain.py::test_blockchain_instance",
+  "backend/tests/util/test_crypto_hash.py::test_crypto_hash"
+]
