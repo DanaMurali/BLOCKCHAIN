@@ -1,4 +1,4 @@
-from block import Block;
+from block import Block
 
 class Blockchain:
     """
@@ -6,17 +6,14 @@ class Blockchain:
     Implemented as a list of blocks - Each block is a data set of transactions.
     """
     def __init__(self):
-        self.chain = []
-        # self.chain is going to contain a list of blocks
+        self.chain = [Block.genesis()]
 
-    # a way to add blocks to the blockchain:
     def add_block(self, data):
-        self.chain.append(Block(data))
-        # Creating an instance of class Block and appending it to blockchain.
+        last_block = self.chain[-1]
+        self.chain.append(Block.mine_block(last_block, data))
 
     def __repr__(self):
         return f'Blockchain: {self.chain}'
-        # repr method gives string representation rather than object at memory: <__main__.Blockchain object at 0x10f1fbb50>
 
 def main():
 
