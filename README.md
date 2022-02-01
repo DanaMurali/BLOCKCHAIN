@@ -1,5 +1,12 @@
 # BLOCKCHAIN
-Learning python by creating a blockchain.
+Learning Python By Creating A Blockchain
 
-Run this to install all the necessary packages:
+**Activate The Virtual Environment**
+"""
+source blockchain-env/bin/activate
+"""
+
+**Install All Packages**
+"""
 pip3 install -r requirements.txt 
+"""
