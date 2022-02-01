@@ -1,3 +1,4 @@
 {
+  "backend/tests/util/test_crypto_hash.py": true,
   "blockchain-env/lib/python3.10/site-packages/wcwidth/tests/test_core.py": true
 }
