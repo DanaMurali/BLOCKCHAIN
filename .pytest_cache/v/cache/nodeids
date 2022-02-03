@@ -11,6 +11,11 @@
   "backend/tests/blockchain/test_block.py::test_slowly_mined_block",
   "backend/tests/blockchain/test_blockchain.py::test_add_block",
   "backend/tests/blockchain/test_blockchain.py::test_blockchain_instance",
+  "backend/tests/blockchain/test_blockchain.py::test_is_valid_chain",
+  "backend/tests/blockchain/test_blockchain.py::test_is_valid_chain_bad_genesis",
+  "backend/tests/blockchain/test_blockchain.py::test_replace_chain",
+  "backend/tests/blockchain/test_blockchain.py::test_replace_chain_bad_chain",
+  "backend/tests/blockchain/test_blockchain.py::test_replace_chain_not_longer",
   "backend/tests/util/test_crypto_hash.py::test_crypto_hash",
   "backend/tests/util/test_hex_to_binary.py::test_hex_to_binary"
 ]
