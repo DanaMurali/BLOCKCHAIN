@@ -1,5 +1,10 @@
 [
   "backend/tests/blockchain/test_block.py::test_genesis",
+  "backend/tests/blockchain/test_block.py::test_is_valid_bad_proof_of_work",
+  "backend/tests/blockchain/test_block.py::test_is_valid_block",
+  "backend/tests/blockchain/test_block.py::test_is_valid_block_bad_last_hash",
+  "backend/tests/blockchain/test_block.py::test_is_valid_block_hash_bad_block_hash",
+  "backend/tests/blockchain/test_block.py::test_is_valid_block_jumped_difficulty",
   "backend/tests/blockchain/test_block.py::test_mine_block",
   "backend/tests/blockchain/test_block.py::test_mined_block_difficulty_limits_at_1",
   "backend/tests/blockchain/test_block.py::test_quickly_mined_block",
